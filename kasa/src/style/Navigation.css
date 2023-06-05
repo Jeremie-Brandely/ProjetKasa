@@ -1,0 +1,32 @@
+.navlist {
+    display: flex;
+    gap: 50px;
+    color: #FF6060;
+    font-size: clamp(12px, 2.5vw, 24px);
+    list-style-type: none;
+}
+
+.navlist a {
+    color: #FF6060;
+}
+
+
+
+
+.nav-list-item {
+    position: relative;
+    color: #FF6060;
+
+}
+
+.nav-list-item-active {
+    position: relative;
+    color: #FF6060;
+    text-decoration: underline solid #FF6060;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-list-item-active {
+        gap: 20px;
+    }
+}

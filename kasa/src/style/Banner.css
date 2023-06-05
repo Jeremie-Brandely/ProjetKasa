@@ -1,0 +1,51 @@
+.banner {
+    display: flex;
+    position: relative;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+    height: 223px;
+    padding: 20px;
+    max-width: 95%;
+    margin: 43px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../public/banner1.png);
+    font-style: normal;
+
+
+}
+
+.banner_about {
+    display: flex;
+    position: relative;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+    height: 223px;
+    padding: 20px;
+    max-width: 95%;
+    margin: 43px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../public/banner2.png);
+}
+
+
+.banner p {
+    color: #FFFFFF;
+    font-size: clamp(20px, 4vw, 48px);
+    font-weight: 500;
+    display: flex;
+    margin: auto;
+}
+
+@media screen and (max-width: 550px) {
+    .banner {
+        margin: 20px auto;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .banner_about {
+        margin: 20px auto;
+        height: 120px;
+    }
+}

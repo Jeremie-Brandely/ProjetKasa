@@ -1,0 +1,23 @@
+.infosAbout {
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.about-main {
+    width: 95%;
+    margin: 0 auto;
+    font-style: normal;
+}
+
+.about-main-collapse {
+    margin: 40px auto;
+}
+
+@media screen and (max-width: 550px) {
+
+    .about-main {
+        margin: 20px auto;
+    }
+
+}

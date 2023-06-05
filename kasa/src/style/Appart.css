@@ -1,0 +1,137 @@
+.appart-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #ff6060;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.appart-content p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.appart-content-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.appart-content-infos h1 {
+    margin: 0;
+}
+
+.appart-content-infos button {
+    display: inline;
+    padding: 5px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: #FFF;
+    background-color: #ff6060;
+    gap: 10px;
+}
+
+.buttonAppart {
+    gap: 10px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.appart-content-host {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.hostInfos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.appart-content-host-name {
+    align-self: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.appart-content-host-name p {
+    margin: 5px;
+
+}
+
+.imgHost {
+
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.appart-content-host-stars {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.appart-content-host-stars img {
+    width: 30px;
+    height: 30px;
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .appart-content {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        gap: 10px;
+    }
+
+    .appart-content-host {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .appart-collapse {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    .appart-collapse-item {
+        width: 90%;
+        margin: auto;
+    }
+
+    .hostInfos {
+        margin-left: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .appart-content-host-stars img {
+        width: 20px;
+        height: 20px;
+    }
+}
