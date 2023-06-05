@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Error from './pages/Error';
-import Appart from "./pages/Appart";
+import Home from '../pages/Home';
+import About from '../pages/About';
+import Error from '../pages/Error';
+import Appart from "../pages/Appart";
 
 
 const App = () => {
