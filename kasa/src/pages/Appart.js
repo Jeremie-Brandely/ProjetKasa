@@ -20,17 +20,10 @@ const Appart = () => {
     const idAppart = useParams('id').id;
 	const foundId = datas.find(data => data.id === idAppart)
 
-	
-	
-
 	const dataCurrentAppart = datas.filter(data => data.id === idAppart);
 
 
-	
-
 	if (foundId) {
-
-		
 
 	 useEffect(() => {
 	 	const dataCurrentAppart = datas.filter(data => data.id === idAppart);

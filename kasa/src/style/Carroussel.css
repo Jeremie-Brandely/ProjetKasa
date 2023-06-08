@@ -52,3 +52,11 @@
     }
 
 }
+
+@media screen and (max-width: 550px) {
+
+    .slideCount {
+        display: none;
+    }
+
+}
