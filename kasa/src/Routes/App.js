@@ -8,14 +8,14 @@ import Appart from "../pages/Appart";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path='/ProjetKasa' element={<Home />} />
       <Route path="/About" element={<About />} />
       <Route path="*" element={<Error />} />
       <Route path="/Appart/:id" element={<Appart />} />
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
